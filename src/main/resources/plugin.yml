@@ -1,0 +1,14 @@
+name: BlocosScoreboard
+version: 1.3
+main: com.blocos.BlocosScoreboard
+api-version: "26.1"
+description: Scoreboard lateral e ranking de blocos quebrados e colocados
+commands:
+  s:
+    description: Controla o scoreboard e o ranking de blocos
+    usage: /s <quebrados|colocados|auto|on|off|placar [pagina]|reset>
+    aliases: [blocos]
+permissions:
+  blocos.reset:
+    description: Permite zerar a contagem de blocos
+    default: op
